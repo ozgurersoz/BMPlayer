@@ -14,8 +14,7 @@ let package = Package(
     targets: [
         .target(
             name: "BMPlayer",
-            dependencies: ["SnapKit", "NVActivityIndicatorView"],
-            path: "Sources"
+            dependencies: ["SnapKit", "NVActivityIndicatorView"]
         )
     ]
 )
