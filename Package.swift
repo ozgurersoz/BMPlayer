@@ -4,6 +4,9 @@ import PackageDescription
 
 let package = Package(
     name: "BMPlayer",
+    platforms: [
+        .iOS(.v14)
+    ],
     products: [
         .library(name: "BMPlayer", targets: ["BMPlayer"]),
     ],
